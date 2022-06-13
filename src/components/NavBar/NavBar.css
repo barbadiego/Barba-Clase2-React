@@ -1,0 +1,37 @@
+.navbar{
+    margin-top: 60px;
+    height: 90px;
+}
+
+.styleNav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+  
+  .Logo{
+    font-size: 2rem;
+    font-style: italic;
+    text-shadow: 3px 3px 10px #eebba0;
+  }
+  .itemsNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .itemsNav div{
+    margin-right: 20px;
+  }
+
+  .itemsNav a:hover{
+    text-decoration: underline;
+  }
+  
+  .BodyInicial{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-family: 'Roboto', sans-serif;
+  }
