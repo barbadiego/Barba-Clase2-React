@@ -1,29 +1,32 @@
+//@ts-check
 import React from 'react'
 import { Box, Text, } from '@chakra-ui/react'
 import './NavBar.css'
+import CartWidget from '../CartWidget/CartWidget'
 
 const NavBar = () => {
   return (
-    <div>
-        <Box bg='#283c55' w='100%' p={4} color='white' className='navbar'>
+        <Box bg='#8b939e' w='100%' color='white' className='navbar'>
             <Text className="styleNav">
               <div className="Logo">
-              Salón de lectura
+                Salon de lectura
               </div>
               <div className="itemsNav">
-                <div>
-                  <a href="#">Inicio</a>
-                </div>
-                <div>
-                  <a href="#">Productos</a>
-                </div>
-                <div>
-                  <a href="#">Consultas</a>
-                </div>
+                  <div>
+                    <a href="#">Inicio</a>
+                  </div>
+                  <div>
+                    <a href="#">Productos</a>
+                  </div>
+                  <div>
+                    <a href="#">Consultas</a>
+                  </div>
+              </div>
+              <div>
+                <CartWidget cant="6" />
               </div>
             </Text>
         </Box>
-    </div>
   )
 }
 

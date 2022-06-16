@@ -1,6 +1,6 @@
 .navbar{
-    margin-top: 60px;
-    height: 90px;
+    margin-top: 40px;
+    /* height: 90px; */
 }
 
 .styleNav{
@@ -15,6 +15,7 @@
     font-style: italic;
     text-shadow: 3px 3px 10px #eebba0;
   }
+
   .itemsNav{
     display: flex;
     justify-content: space-between;
@@ -27,11 +28,4 @@
 
   .itemsNav a:hover{
     text-decoration: underline;
-  }
-  
-  .BodyInicial{
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
-    font-family: 'Roboto', sans-serif;
   }
